@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/num1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="Sayi 1"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <View
+                android:id="@+id/res1"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="4dp"
+                android:background="#FFFF0000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/num2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="Sayi 2"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <View
+                android:id="@+id/res2"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="4dp"
+                android:background="#FFFF0000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/num3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="Sayi 3"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <View
+                android:id="@+id/res3"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="4dp"
+                android:background="#FFFF0000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/num4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="Sayi 4"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <View
+                android:id="@+id/res4"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="4dp"
+                android:background="#FFFF0000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/num5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="Sayi 5"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <View
+                android:id="@+id/res5"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="4dp"
+                android:background="#FFFF0000" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:onClick="check"
+        android:text="check" />
+
+
+</LinearLayout>
